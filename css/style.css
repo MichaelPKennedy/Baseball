@@ -1,0 +1,173 @@
+html,
+body {
+    height: 100%;
+    background-image: url('../images/pexels-pixabay-235985.jpg');
+    background-size: 100%;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    top: 0;
+}
+
+a.nav-link {
+    font-size: 10pt;
+}
+
+img {
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 1px 2px black;
+    margin-top: 25px;
+}
+
+h2 {
+    color: rgb(169, 0, 0);
+    margin-top: 40px;
+
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#submit {
+    display: inline-block;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mr-auto {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#teams {
+    margin-top: 25px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+a.navbar,
+a.navbar:visited,
+a.navbar:active {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.navbar:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+button.navbar {
+    /*position: fixed;
+    margin: auto;
+    left: -850;
+    right: 0;
+    top: -450;
+    bottom: 0;*/
+    float: left;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+
+
+.statstable table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+.center {
+    text-align: center;
+}
+
+
+a.players,
+a.teams,
+p {
+    color: white;
+    text-decoration: none;
+
+}
+
+a.red {
+    color: rgb(169, 0, 0);
+    text-decoration: none;
+}
+
+a.players:hover {
+    color: rgb(169, 0, 0);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+a.teams:hover {
+    color: rgb(169, 0, 0);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+
+a.visited {
+    color: darkolivegreen;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    text-align: center;
+}
+
+#footer {
+    color: black;
+}
+
+.nomargin {
+    margin-top: 0;
+}
